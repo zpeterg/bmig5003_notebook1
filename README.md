@@ -1,5 +1,14 @@
 # bmig5003_notebook1
-Project for BMIG5003 - notebook that does text-parsing.
+Project for BMIG5003 - notebook that does text-parsing to anticipate words based on proximity to each other.
+
+# Features
+This is a python Jupyter notebook that:
+1. Loads a .txt file.
+2. Cleans it (removes most punctuation).
+3. Breaks it into an array.
+4. Cuts the array down to only include segments bounded by "start" and "stop" words (and ended completely with a "finish" word).
+5. Finds words within a certain proximity and loads them into a SQLite database based on relative position.
+6. Finds the words within a specific proximity to a specified word, and gives count and percentage of each.
 
 # Install
 1. Clone ```git clone https://github.com/zpeterg/bmig5003_notebook1.git```
